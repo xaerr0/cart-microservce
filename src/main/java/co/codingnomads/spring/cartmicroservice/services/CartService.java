@@ -2,6 +2,7 @@ package co.codingnomads.spring.cartmicroservice.services;
 
 import co.codingnomads.spring.cartmicroservice.models.Cart;
 import co.codingnomads.spring.cartmicroservice.models.CartItem;
+import co.codingnomads.spring.cartmicroservice.repositories.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

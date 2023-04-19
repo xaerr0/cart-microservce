@@ -1,12 +1,13 @@
 package co.codingnomads.spring.cartmicroservice.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.List;
 
+@Entity
+@Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
